@@ -1,8 +1,11 @@
-﻿//entero a caracter
+﻿//Suma de dos enteros
 
-int ent = 65;
-char cara = Convert.ToChar(ent);
+using System.Diagnostics.CodeAnalysis;
+
+int n1 = 5;
+int n2 = 10;
+int suma = n1+ n2;
 
 
 
-Console.WriteLine("el entero " +ent+" ha sido cambiado a Caracter: "+ cara);
+Console.WriteLine("La suma de los dos numeros es: "+ suma);
