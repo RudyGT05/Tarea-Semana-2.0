@@ -8,4 +8,4 @@ float multi = n1 * n2;
 
 
 
-Console.WriteLine("La resta de los dos numeros es: "+ multi);
+Console.WriteLine("La multiplicacion de los dos numeros es: "+ multi);
