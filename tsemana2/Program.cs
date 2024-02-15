@@ -1,8 +1,8 @@
-﻿//caracter a entero
+﻿//entero a caracter
 
-char cara = 'A';
-int ent = Convert.ToInt16(cara);
+int ent = 65;
+char cara = Convert.ToChar(ent);
 
 
 
-Console.WriteLine("el Caracter " +cara+" ha sido cambiado a entero: "+ ent);
+Console.WriteLine("el entero " +ent+" ha sido cambiado a Caracter: "+ cara);
