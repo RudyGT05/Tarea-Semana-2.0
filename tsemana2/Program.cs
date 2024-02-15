@@ -1,13 +1,11 @@
-﻿//Escribe un programa que calcule el área de un triángulo.
+﻿//Escribe un programa que calcule el volumen de una esfera.
 
 using System.Formats.Asn1;
 using System.Text.RegularExpressions;
 
-Console.WriteLine("Ingrese la base del triangulo");
-int bases = int.Parse(Console.ReadLine());
-Console.WriteLine("Ingrese la altura del triangulo");
-int altura = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese el radio de la esfera");
+double radio = double.Parse(Console.ReadLine());
+double volumen =   (3.14 * (4*(radio*radio*radio)))/3;
 
-float area = (bases * altura) / 2f;
-Console.WriteLine("el area del triangulo es: " + area);
+Console.WriteLine("el volumen de una esfera es: " + volumen);
 
