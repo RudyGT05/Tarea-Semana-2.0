@@ -1,8 +1,8 @@
-﻿//flotante a entero
+﻿//caracter a entero
 
-float flo = 8.1f;
-int ent = Convert.ToInt16(flo);
+char cara = 'A';
+int ent = Convert.ToInt16(cara);
 
 
 
-Console.WriteLine("el numero flotante " +flo+" ha sido cambiado a entero: "+ ent);
+Console.WriteLine("el Caracter " +cara+" ha sido cambiado a entero: "+ ent);
