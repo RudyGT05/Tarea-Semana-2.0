@@ -1,11 +1,11 @@
-﻿//multiplicacion de dos flotantes
+﻿//división de dos números enteros
 
 using System.Diagnostics.CodeAnalysis;
 
-float n1 = 10.5f;
-float n2 = 5.1f;
-float multi = n1 * n2;
+int n1 = 10;
+int n2 = 5;
+float division = n1 / n2;
 
 
 
-Console.WriteLine("La resta de los dos numeros es: "+ multi);
+Console.WriteLine("La division de los dos numeros es: "+ division);
