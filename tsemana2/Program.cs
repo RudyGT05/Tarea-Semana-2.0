@@ -1,11 +1,11 @@
-﻿//Suma de dos enteros
+﻿//resta de dos decimales
 
 using System.Diagnostics.CodeAnalysis;
 
-int n1 = 5;
-int n2 = 10;
-int suma = n1+ n2;
+decimal n1 = 10.50m;
+decimal n2 = 5.20m;
+decimal resta = n1 - n2;
 
 
 
-Console.WriteLine("La suma de los dos numeros es: "+ suma);
+Console.WriteLine("La resta de los dos numeros es: "+ resta);
