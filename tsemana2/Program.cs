@@ -1,11 +1,6 @@
-﻿//módulo de dos números enteros
+﻿//Escribe un programa que lea una cadena de texto y la imprima en mayúsculas.
 
-using System.Diagnostics.CodeAnalysis;
-
-int n1 = 12;
-int n2 = 5;
-float mod = n1 % n2;
-
-
-
-Console.WriteLine("La division de los dos numeros es: "+ mod);
+Console.WriteLine("Escriba el texto");
+string texto = Console.ReadLine();
+string txtm = texto.ToUpper();
+Console.WriteLine(txtm);
