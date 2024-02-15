@@ -1,9 +1,13 @@
-﻿//Escribe un programa que lea una cadena de texto y cuente el número de vocales que contiene.
+﻿//Escribe un programa que calcule el área de un triángulo.
 
+using System.Formats.Asn1;
 using System.Text.RegularExpressions;
 
-Console.WriteLine("Escriba el texto");
-string texto = Console.ReadLine();
-int vocales = Regex.Matches(texto,"[aeiouAEIOU]").Count;
-Console.WriteLine("Su palabra tiene: "+vocales);
+Console.WriteLine("Ingrese la base del triangulo");
+int bases = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese la altura del triangulo");
+int altura = int.Parse(Console.ReadLine());
+
+float area = (bases * altura) / 2f;
+Console.WriteLine("el area del triangulo es: " + area);
 
