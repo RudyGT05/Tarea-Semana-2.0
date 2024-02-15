@@ -1,6 +1,6 @@
-﻿//entero a decimal
+﻿//decimal a flotante
 
-int ent = 8;
-decimal dec = Convert.ToDecimal(ent);
+decimal dec = 8.10m;
+float flo = (float)(dec);
 
-Console.WriteLine("8 en decimal es:" + dec.ToString("0.0"));
+Console.WriteLine("el numero decimal "+dec+" ha sido cambiado a flotante: "+ flo);
